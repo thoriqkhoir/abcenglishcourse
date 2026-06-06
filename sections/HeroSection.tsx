@@ -55,18 +55,13 @@ export default function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 pt-2"
           >
             <a
-              href="#programs"
+              href="#contact"
               className="group inline-flex items-center justify-center gap-2 bg-gradient-to-r from-orange-500 to-yellow-500 text-white font-bold px-8 py-4 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-orange-500/45 hover:scale-105 transition-all duration-200 text-base"
             >
-              <span>Pilih Program Kelas</span>
+              <span>Konsultasi Gratis</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center bg-white border-2 border-gray-200 hover:border-orange-400 text-gray-700 hover:text-orange-500 font-bold px-8 py-4 rounded-full hover:scale-105 transition-all duration-200 text-base"
-            >
-              Konsultasi Gratis
-            </a>
+            
           </motion.div>
 
           {/* Core Trust Badges */}

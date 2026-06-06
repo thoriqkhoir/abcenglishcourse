@@ -83,7 +83,7 @@ export default function MethodSection() {
 
                 {/* Step Card Text */}
                 <div className="bg-white p-6 rounded-2xl border border-gray-100 group-hover:border-orange-200 group-hover:shadow-md transition-all duration-300 w-full flex-grow flex flex-col justify-start">
-                  <h3 className="font-black text-gray-900 text-base mb-2 group-hover:text-orange-500 transition-colors">
+                  <h3 className="font-black text-gray-900 text-xl mb-2 group-hover:text-orange-500 transition-colors">
                     {step.title}
                   </h3>
                   <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">

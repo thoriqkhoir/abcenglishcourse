@@ -27,7 +27,7 @@ export default function Home() {
       <WhyChooseUsSection />
 
       {/* 5. Programs Section */}
-      <ProgramsSection />
+      {/* <ProgramsSection /> */}
 
       {/* 6. Learning Method Section */}
       <MethodSection />

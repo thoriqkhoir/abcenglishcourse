@@ -75,7 +75,7 @@ export default function WhyChooseUsSection() {
                 </div>
                 
                 <div className="space-y-3">
-                  <h3 className="text-lg font-black text-gray-900 group-hover:text-orange-600 transition-colors">
+                  <h3 className="text-xl font-black text-gray-900 group-hover:text-orange-600 transition-colors">
                     {benefit.title}
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed">

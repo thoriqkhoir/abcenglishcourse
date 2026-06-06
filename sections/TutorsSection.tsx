@@ -17,22 +17,22 @@ interface Tutor {
 export default function TutorsSection() {
   const tutors: Tutor[] = [
     {
-      name: "Mrs. Wanda",
+      name: "Mr. Umar",
       role: "Academic & Speaking Tutor",
       initials: "MW",
       specialty: "Academic & Speaking Tutor",
       experience: "8 Tahun Mengajar",
-      education: "Universitas Negeri Serabaya",
+      education: "Flinders University Australia (Tesol)",
       badges: ["Oxford Grad", "CELTA Certified", "Native Speaker"],
       gradientClass: "from-orange-500 to-orange-600"
     },
     {
       name: "Mrs. Silfa",
-      role: "IELTS Expert Tutor",
+      role: "TOEFL Expert Tutor",
       initials: "MS",
-      specialty: "IELTS Preparation (Skor IELTS 8.5)",
+      specialty: "TOEFL (Skor 550)",
       experience: "6 Tahun Mengajar",
-      education: "Master of English Education (UI)",
+      education: "Universitas Riyadlul Ulum",
       badges: ["IELTS 8.5 Master", "TEFL Certified", "IELTS Specialist"],
       gradientClass: "from-yellow-400 to-amber-500"
     },
@@ -40,9 +40,9 @@ export default function TutorsSection() {
       name: "Mrs. Febbi",
       role: "Academic & Business Tutor",
       initials: "MF",
-      specialty: "Business English & TOEFL Preparation",
+      specialty: "TOEFL (Skor 560)",
       experience: "10 Tahun Mengajar",
-      education: "University of Queensland (TESOL)",
+      education: "Universitas Negeri Jember",
       badges: ["TESOL Master", "Business Trainer", "TOEFL Specialist"],
       gradientClass: "from-orange-600 to-yellow-500"
     }

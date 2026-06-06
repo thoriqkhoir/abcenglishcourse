@@ -58,7 +58,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 alt="ABC English Course Logo"
                 className="h-12 w-auto object-contain"
               />
-              <div className="hidden sm:flex flex-col text-left leading-none">
+              <div className="flex flex-col text-left leading-none">
                 <span className="text-lg font-black tracking-tight text-gray-900">
                   abc<span className="text-orange-500">english</span>
                 </span>
@@ -266,13 +266,13 @@ export default function MainLayout({ children }: MainLayoutProps) {
         href="https://api.whatsapp.com/send?phone=6282140021937&text=halo%20boleh%20diinfo%20ya%20perihal%20progam%20LANGKAH%20KAMPUS%20ACADEMY"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black px-4 py-3.5 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group cursor-pointer"
+        className="fixed bottom-8 right-8 z-50 flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-black p-5 rounded-full shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group cursor-pointer"
         aria-label="Chat WhatsApp"
       >
-        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-out whitespace-nowrap text-sm font-bold">
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 ease-out whitespace-nowrap text-base font-bold">
           Chat Admin via WA
         </span>
-        <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
+        <svg viewBox="0 0 24 24" className="h-8 w-8 fill-current">
           <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.456 3.474 1.326 4.988l-1.408 5.148 5.268-1.38c1.464.798 3.108 1.224 4.806 1.224 5.508 0 9.99-4.482 9.99-9.988 0-5.508-4.482-9.988-9.99-9.988zm6.54 14.376c-.27.756-1.356 1.38-1.896 1.458-.492.072-.972.102-3.144-.756-2.772-1.092-4.542-3.924-4.686-4.116-.138-.192-1.146-1.524-1.146-2.91 0-1.386.726-2.064 1.002-2.346.222-.228.594-.342.948-.342.114 0 .222.006.318.012.276.012.462.03.66.45.246.522.846 2.064.918 2.214.072.15.12.324.018.528-.096.204-.156.324-.312.504-.156.18-.33.402-.474.54-.156.156-.324.324-.138.648.186.312.828 1.362 1.776 2.208.948.846 1.746 1.11 2.076 1.248.33.138.522.114.72-.114.198-.228.846-.984 1.074-1.32.228-.336.456-.276.768-.162.312.114 1.98.93 2.322 1.104.342.174.57.258.654.402.084.144.084.828-.186 1.584z"/>
         </svg>
       </a>

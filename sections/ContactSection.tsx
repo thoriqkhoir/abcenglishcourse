@@ -8,16 +8,9 @@ export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
-    program: "Langkah Kampus Akademi (Kelas Siang)",
     message: ""
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
-
-  const programs = [
-    "Langkah Kampus Akademi (Kelas Pagi)",
-    "Langkah Kampus Akademi (Kelas Siang)",
-    "Langkah Kampus Akademi (Kelas Malam)"
-  ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -39,7 +32,6 @@ export default function ContactSection() {
     const text = `Halo Admin ABC English Course Tuban! Saya tertarik mendaftar program Langkah Kampus Akademi.
 - Nama Lengkap: ${formData.name}
 - Nomor WA: ${formData.phone}
-- Pilihan Kelas: ${formData.program}
 - Catatan Tambahan: ${formData.message || "-"}`;
     
     const waUrl = `https://api.whatsapp.com/send?phone=${waNumber}&text=${encodeURIComponent(text)}`;
@@ -48,7 +40,7 @@ export default function ContactSection() {
     setTimeout(() => {
       window.open(waUrl, "_blank");
       setIsSubmitted(false);
-      setFormData({ name: "", phone: "", program: "General English", message: "" });
+      setFormData({ name: "", phone: "", message: "" });
     }, 1500);
   };
 
@@ -221,25 +213,6 @@ export default function ContactSection() {
                 />
               </div>
 
-              {/* Program Dropdown */}
-              <div className="space-y-2">
-                <label htmlFor="program" className="text-xs sm:text-sm font-black text-gray-700 uppercase tracking-wider block">
-                  Program Kursus Diminati
-                </label>
-                <select
-                  id="program"
-                  name="program"
-                  value={formData.program}
-                  onChange={handleInputChange}
-                  className="w-full bg-gray-50 border border-gray-200 focus:border-orange-500 focus:bg-white rounded-xl px-4 py-3.5 text-sm text-gray-800 font-semibold focus:outline-none transition-all cursor-pointer"
-                >
-                  {programs.map((prog, idx) => (
-                    <option key={idx} value={prog}>
-                      {prog}
-                    </option>
-                  ))}
-                </select>
-              </div>
 
               {/* Message */}
               <div className="space-y-2">
