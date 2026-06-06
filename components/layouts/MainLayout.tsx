@@ -244,7 +244,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 </li>
                 <li className="flex gap-3 items-center">
                   <Mail className="h-5 w-5 text-orange-500 shrink-0" />
-                  <span>[EMAIL_ADDRESS]</span>
+                  <span>abccourse01@gmail.com</span>
                 </li>
                 <li className="flex gap-3 items-center">
                   <Instagram className="h-5 w-5 text-orange-500 shrink-0" />
