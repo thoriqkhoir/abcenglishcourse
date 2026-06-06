@@ -13,7 +13,6 @@ export default function MainLayout({ children }: MainLayoutProps) {
 
   const navItems = [
     { label: "Home", href: "#hero" },
-    { label: "Jadwal Kelas", href: "#programs" },
     { label: "Metode", href: "#method" },
     { label: "Tutor", href: "#tutors" },
     { label: "Galeri", href: "#gallery" },
