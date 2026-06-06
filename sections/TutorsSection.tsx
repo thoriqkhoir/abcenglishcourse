@@ -21,7 +21,7 @@ export default function TutorsSection() {
       role: "Academic & Speaking Tutor",
       initials: "MU",
       specialty: "Academic & Speaking Tutor",
-      experience: "8 Tahun Mengajar",
+      experience: "12 Tahun Mengajar",
       education: "Flinders University Australia (Tesol)",
       badges: ["Oxford Grad", "CELTA Certified", "Native Speaker"],
       gradientClass: "from-orange-500 to-orange-600"
@@ -31,8 +31,8 @@ export default function TutorsSection() {
       role: "TOEFL Expert Tutor",
       initials: "MS",
       specialty: "TOEFL (Skor 550)",
-      experience: "6 Tahun Mengajar",
-      education: "Universitas Riyadlul Ulum",
+      experience: "3 Tahun Mengajar",
+      education: "Universitas Ronggolawe Tuban",
       badges: ["IELTS 8.5 Master", "TEFL Certified", "IELTS Specialist"],
       gradientClass: "from-yellow-400 to-amber-500"
     },
@@ -41,7 +41,7 @@ export default function TutorsSection() {
       role: "Academic & Business Tutor",
       initials: "MF",
       specialty: "TOEFL (Skor 560)",
-      experience: "10 Tahun Mengajar",
+      experience: "3 Tahun Mengajar",
       education: "Universitas Negeri Jember",
       badges: ["TESOL Master", "Business Trainer", "TOEFL Specialist"],
       gradientClass: "from-orange-600 to-yellow-500"

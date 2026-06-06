@@ -16,23 +16,23 @@ export default function TestimonialsSection() {
   const testimonials: Testimonial[] = [
     {
       name: "Nadia Kirana",
-      role: "Mahasiswa Kedokteran UI",
+      role: "Mahasiswa Kedokteran Unair",
       program: "IELTS Prep Student",
       quote: "Skor IELTS saya naik drastis dari 5.5 ke 7.5 dalam waktu 3 bulan saja! Metode belajar strategi menjawab soal cepat dari Mr. Liam sangat akurat, dan kelas writing feedback-nya sangat mendalam.",
       rating: 5,
       avatarBg: "bg-orange-500"
     },
     {
-      name: "Budi Santoso",
-      role: "Project Manager di GoTo",
+      name: "Captain Subuh",
+      role: "Kepala Pelabuhan KSOP",
       program: "Business English Student",
       quote: "Dulu saya selalu gugup saat presentasi bahasa Inggris di depan klien asing. Berkat modul negoisasi dan speaking drills di abcenglish, sekarang saya sangat percaya diri memimpin rapat regional perusahaan.",
       rating: 5,
       avatarBg: "bg-yellow-500"
     },
     {
-      name: "Rian Pratama",
-      role: "Siswa SMA Negeri 8 Jakarta",
+      name: "Firman",
+      role: "Universitas Diponegoro",
       program: "General English Student",
       quote: "Belajar di abcenglish seru banget! Tutornya asyik, ga kaku, dan metodenya interaktif. English club tambahannya gratis dan bikin saya makin pede ngomong tanpa takut salah grammar lagi. Nilai rapor saya naik!",
       rating: 5,

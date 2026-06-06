@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Phone, Mail, MapPin, Clock, MessageSquare, Send, Check } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageSquare, Send, Check, Instagram } from "lucide-react";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -118,6 +118,18 @@ export default function ContactSection() {
                   </div>
                 </div>
 
+                <div className="flex gap-4 items-center">
+                  <div className="w-10 h-10 rounded-xl bg-orange-50 border border-orange-100 flex items-center justify-center text-orange-500 shrink-0 shadow-sm">
+                    <Instagram className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="text-xs font-bold text-gray-400 uppercase">Instagram Resmi</h4>
+                    <a href="https://instagram.com/abc_english_course_" target="_blank" rel="noopener noreferrer" className="text-sm font-black text-gray-800 hover:text-orange-500 transition-colors">
+                      @abc_english_course_
+                    </a>
+                  </div>
+                </div>
+
                 <div className="flex gap-4 items-start">
                   <div className="w-10 h-10 rounded-xl bg-orange-50 border border-orange-100 flex items-center justify-center text-orange-500 shrink-0 shadow-sm mt-0.5">
                     <MapPin className="h-5 w-5" />
@@ -125,7 +137,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="text-xs font-bold text-gray-400 uppercase">Alamat Cozy Hub</h4>
                     <p className="text-sm font-bold text-gray-800 leading-relaxed">
-                      Rumah Bahasa "ABC English Course" Tuban, Kabupaten Tuban, Jawa Timur
+                      Rumah Bahasa &quot;ABC English Course&quot; Tuban, Kabupaten Tuban, Jawa Timur
                     </p>
                   </div>
                 </div>
@@ -137,7 +149,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="text-xs font-bold text-gray-400 uppercase">Jam Operasional</h4>
                     <p className="text-sm font-bold text-gray-800">
-                      Senin - Sabtu: 09.00 - 20.00 WIB
+                      Senin - Sabtu: 10.00 - 20.00 WIB
                     </p>
                   </div>
                 </div>

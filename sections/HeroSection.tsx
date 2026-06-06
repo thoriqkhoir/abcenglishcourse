@@ -136,8 +136,8 @@ export default function HeroSection() {
                     MR
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-bold text-xs text-gray-800">Mrs. Wanda</h4>
-                    <p className="text-[10px] text-gray-500">Native Speaker, Oxford Alumni</p>
+                    <h4 className="font-bold text-xs text-gray-800">Mr. Umar</h4>
+                    <p className="text-[10px] text-gray-500">Academic & Speaking Tutor, Flinders University Australia</p>
                   </div>
                   <div className="flex items-center gap-1 bg-yellow-50 px-2 py-1 rounded text-yellow-600 font-bold text-xs">
                     <Star className="w-3 h-3 fill-current" />

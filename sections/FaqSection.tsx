@@ -23,7 +23,7 @@ export default function FaqSection() {
     },
     {
       question: "Apakah saya bisa memilih jadwal kelas jika memiliki kesibukan lain?",
-      answer: "Tentu bisa! Kami menyediakan pilihan kelas pagi, siang, dan malam. Kamu bisa memilih jadwal yang paling sesuai dengan waktu luangmu agar liburanmu tetap produktif dan langsung bernilai tambah (bervalue)."
+      answer: "Tentu bisa! Kami sangat terbuka untuk berkonsultasi. Kamu bisa memilih jadwal yang paling sesuai dengan waktu luangmu agar liburanmu tetap produktif dan langsung bernilai tambah (bervalue)."
     },
     {
       question: "Apakah tempat belajarnya benar-benar nyaman dan mudah dijangkau?",

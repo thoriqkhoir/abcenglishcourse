@@ -244,11 +244,15 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 </li>
                 <li className="flex gap-3 items-center">
                   <Mail className="h-5 w-5 text-orange-500 shrink-0" />
-                  <span>abccourse01gmail.com</span>
+                  <span>[EMAIL_ADDRESS]</span>
+                </li>
+                <li className="flex gap-3 items-center">
+                  <Instagram className="h-5 w-5 text-orange-500 shrink-0" />
+                  <span>@abc_english_course_</span>
                 </li>
                 <li className="flex gap-3 items-center">
                   <Clock className="h-5 w-5 text-orange-500 shrink-0" />
-                  <span>Senin - Sabtu: 09.00 - 20.00 WIB</span>
+                  <span>Senin - Sabtu: 10.00 - 20.00 WIB</span>
                 </li>
               </ul>
             </div>
