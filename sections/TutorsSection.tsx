@@ -19,7 +19,7 @@ export default function TutorsSection() {
     {
       name: "Mr. Umar",
       role: "Academic & Speaking Tutor",
-      initials: "MW",
+      initials: "MU",
       specialty: "Academic & Speaking Tutor",
       experience: "8 Tahun Mengajar",
       education: "Flinders University Australia (Tesol)",
