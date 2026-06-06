@@ -95,7 +95,7 @@ export default function ProgramsSection() {
               {program.isPopular && (
                 <div className="absolute top-0 right-0 bg-gradient-to-l from-orange-500 to-yellow-400 text-white text-[10px] font-black px-4 py-1.5 rounded-bl-2xl uppercase tracking-wider flex items-center gap-1">
                   <Flame className="w-3.5 h-3.5 fill-current animate-bounce" />
-                  <span>Terpopuler</span>
+                  <span>Terlaris</span>
                 </div>
               )}
 
