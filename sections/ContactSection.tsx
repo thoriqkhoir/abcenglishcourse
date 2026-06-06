@@ -112,8 +112,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold text-gray-400 uppercase">Email Resmi</h4>
-                    <a href="mailto:info@abcenglish.com" className="text-sm font-black text-gray-800 hover:text-orange-500 transition-colors">
-                      info@abcenglish.com
+                    <a href="mailto:abccourse01gmail.com" className="text-sm font-black text-gray-800 hover:text-orange-500 transition-colors">
+                      abccourse01gmail.com
                     </a>
                   </div>
                 </div>

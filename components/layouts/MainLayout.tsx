@@ -62,7 +62,10 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 <span className="text-lg font-black tracking-tight text-gray-900">
                   abc<span className="text-orange-500">english</span>
                 </span>
-                <span className="text-[9px] font-black uppercase tracking-widest text-gray-400 mt-0.5">
+                <span className="text-[8px] font-bold uppercase tracking-wider text-gray-400 mt-0.5 block sm:hidden">
+                  program intensif persiapan kuliah
+                </span>
+                <span className="text-[9px] font-black uppercase tracking-widest text-gray-400 mt-0.5 hidden sm:block">
                   course
                 </span>
               </div>
@@ -157,11 +160,11 @@ export default function MainLayout({ children }: MainLayoutProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {/* Brand column */}
             <div className="space-y-4">
-              <div className="flex items-center gap-2 bg-white/5 p-2 rounded-xl backdrop-blur-sm">
+              <div className="flex items-center gap-2  p-2 rounded-xl backdrop-blur-sm">
                 <img
                   src="/assets/images/Logo.png"
                   alt="ABC English Course Logo"
-                  className="h-12 w-auto object-contain brightness-0 invert opacity-90"
+                  className="h-12 w-auto object-contain"
                 />
               </div>
               <p className="text-sm text-gray-400 leading-relaxed">
@@ -241,7 +244,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
                 </li>
                 <li className="flex gap-3 items-center">
                   <Mail className="h-5 w-5 text-orange-500 shrink-0" />
-                  <span>info@abcenglish.com</span>
+                  <span>abccourse01gmail.com</span>
                 </li>
                 <li className="flex gap-3 items-center">
                   <Clock className="h-5 w-5 text-orange-500 shrink-0" />
