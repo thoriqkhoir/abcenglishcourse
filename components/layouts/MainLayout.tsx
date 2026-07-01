@@ -235,7 +235,7 @@ export default function MainLayout({ children }: MainLayoutProps) {
               <ul className="space-y-4 text-sm text-gray-400">
                 <li className="flex gap-3 items-start">
                   <MapPin className="h-5 w-5 text-orange-500 shrink-0" />
-                  <span>Rumah Bahasa "ABC English Course" Tuban, Kabupaten Tuban, Jawa Timur</span>
+                  <span>perumahan Ahsana Green Village no. A14, Jabung, Sugihwaras, Kec. Jenu, Kabupaten Tuban, Jawa Timur 62352</span>
                 </li>
                 <li className="flex gap-3 items-center">
                   <Phone className="h-5 w-5 text-orange-500 shrink-0" />

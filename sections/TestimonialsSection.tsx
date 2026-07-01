@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
       name: "Nadia Kirana",
       role: "Mahasiswa Kedokteran Unair",
       program: "IELTS Prep Student",
-      quote: "Skor IELTS saya naik drastis dari 5.5 ke 7.5 dalam waktu 3 bulan saja! Metode belajar strategi menjawab soal cepat dari Mr. Liam sangat akurat, dan kelas writing feedback-nya sangat mendalam.",
+      quote: "Skor IELTS saya naik drastis dari 5.5 ke 7.5 dalam waktu 3 bulan saja! Metode belajar strategi menjawab soal cepat dari Mr. Umar sangat akurat, dan kelas writing feedback-nya sangat mendalam.",
       rating: 5,
       avatarBg: "bg-orange-500"
     },

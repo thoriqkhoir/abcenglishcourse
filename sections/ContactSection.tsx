@@ -137,7 +137,7 @@ export default function ContactSection() {
                   <div>
                     <h4 className="text-xs font-bold text-gray-400 uppercase">Alamat Cozy Hub</h4>
                     <p className="text-sm font-bold text-gray-800 leading-relaxed">
-                      Rumah Bahasa &quot;ABC English Course&quot; Tuban, Kabupaten Tuban, Jawa Timur
+                      perumahan Ahsana Green Village no. A14, Jabung, Sugihwaras, Kec. Jenu, Kabupaten Tuban, Jawa Timur 62352
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export default function ContactSection() {
                 Kabupaten Tuban, Jawa Timur. Pusat gathering & bimbingan belajar ter-cozy untuk anak SMA se-Tuban.
               </p>
               <a
-                href="https://maps.google.com"
+                href="https://www.google.com/maps/place/Ahsana+Green+Village/@-6.8592552,112.0204249,17z/data=!3m1!4b1!4m6!3m5!1s0x2e77973ec29a8f13:0xbc38501736a5e29e!8m2!3d-6.8592552!4d112.0204249!16s%2Fg%2F11h8hzpv1r?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="z-10 mt-3 text-xs font-black text-orange-500 hover:text-orange-600 hover:underline flex items-center gap-1.5"
